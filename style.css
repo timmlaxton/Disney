@@ -39,3 +39,50 @@ p {
 img {
   width: 100%;
 }
+
+.showcase {
+  width: 100%;
+  height: 93vh;
+  position: relative;
+  background: url("./img/background.jpg") no-repeat center center/cover;
+}
+
+/* .showcase::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+} */
+
+.showcase-top {
+  position: relative;
+  height: 90px;
+  z-index: 2;
+  top: 15%;
+}
+
+.showcase-top img {
+  width: 250px;
+  position: absolute;
+  top: 0%;
+}
+
+.showcase-top a {
+  position: absolute;
+  top: 50%;
+}
+
+.showcase-content {
+  position: relative;
+  top: 25%;
+}
+
+.showcase-content h1 {
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 0.8;
+  margin: 0 0 2rem;
+}
